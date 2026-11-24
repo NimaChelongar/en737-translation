@@ -5,7 +5,6 @@ EN.737 · Large Language Models: Foundations and Algorithms
 
 Can a tiny translation model give a better answer if we let it try eight times? This notebook trains a German-to-English Transformer from scratch. It then uses the same trained model to translate the same sentences with greedy decoding, beam search, and sampling with minimum Bayes risk (MBR) reranking. The experiment measures how much translation quality changes and how much extra time each method takes.
 
-Open in Colab · View the notebook
 
 Run the notebook
 
