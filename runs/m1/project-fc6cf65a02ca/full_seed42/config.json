@@ -1,0 +1,64 @@
+{
+  "profile": "project",
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "cfg": {
+    "epochs": 3,
+    "micro_batch": 4,
+    "accumulation": 8,
+    "eval_batch": 8,
+    "gen_batch": 8,
+    "full_lr": 5e-05,
+    "lora_lr": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.05,
+    "grad_clip": 1.0,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "context": 1024,
+    "max_new_tokens": 128,
+    "log_every": 50,
+    "bootstrap_samples": 1000,
+    "precision": "auto",
+    "length_bucket_window": 128
+  },
+  "prediction": {
+    "hypothesis": "Rank-8 LoRA is competitive with full fine-tuning at a matched target-token budget.",
+    "primary_metric": "final checkpoint test corpus chrF (LoRA minus full)",
+    "minimum_delta_chrf": -2.0,
+    "secondary_prediction": "LoRA uses less peak allocated training GPU memory than full fine-tuning."
+  },
+  "split_sha256": {
+    "train": "35890a819a505a51ed5233a2a4fe7a3cc974330006dd629340870036a08d36fa",
+    "validation": "d8a534f3b83965f531bbc70cfd5fdb9f3e25f869e04976dedfb6cae55d45f0ac",
+    "test": "e087d3fb1315d0568f122c2c971c6f429dff952c97ef7bd16dd849637966180f"
+  },
+  "split_sizes": {
+    "train": 19709,
+    "validation": 507,
+    "test": 512
+  },
+  "software": {
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "sacrebleu": "2.5.1",
+    "accelerate": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "tokenizers": "0.21.4",
+    "huggingface-hub": "0.36.2",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "hardware": {
+    "device": "cuda",
+    "precision": "torch.float16",
+    "python": "3.13.16"
+  },
+  "gpu": "Tesla T4",
+  "method": "full",
+  "seed": 42,
+  "lr": 5e-05,
+  "trainable_parameters": 124439808,
+  "total_parameters": 124439808
+}

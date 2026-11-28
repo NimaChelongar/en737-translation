@@ -1,0 +1,52 @@
+{
+  "data_mode": "iwslt",
+  "splits": {
+    "train": {
+      "raw_rows": 206112,
+      "empty": 0,
+      "repeated_source": 2291,
+      "source_in_earlier_split": 0,
+      "eligible_before_cap": 203821,
+      "selected_before_length": 20000,
+      "prompt_too_long": 76,
+      "pair_too_long_for_ce": 215,
+      "retained_rows": 19709,
+      "complete_pairs_for_ce": 19709
+    },
+    "validation": {
+      "raw_rows": 888,
+      "empty": 0,
+      "repeated_source": 6,
+      "source_in_earlier_split": 3,
+      "eligible_before_cap": 879,
+      "selected_before_length": 512,
+      "prompt_too_long": 5,
+      "pair_too_long_for_ce": 7,
+      "retained_rows": 507,
+      "complete_pairs_for_ce": 500
+    },
+    "test": {
+      "raw_rows": 8079,
+      "empty": 0,
+      "repeated_source": 18,
+      "source_in_earlier_split": 73,
+      "eligible_before_cap": 7988,
+      "selected_before_length": 512,
+      "prompt_too_long": 0,
+      "pair_too_long_for_ce": 3,
+      "retained_rows": 512,
+      "complete_pairs_for_ce": 509
+    }
+  },
+  "iwslt_revision": "b12a1d9c35c86684cfb15079c9a2fbb467a23aa1",
+  "parquet_sha256": {
+    "train": "775169702cc226a66b768ab7f3fb22b744ce5a6e037b677e068a9d51c4af9fce",
+    "validation": "6c4385add06f6d19de34978cc481e59a1f1b354ceaa2247101629f15c351b6f3",
+    "test": "2ed8e9880200bd7adddd9e56664f8607fb1dbbaff18f00bd811ac8378c4e4b94"
+  },
+  "tokenizer_sha256": "c4237eb5f0f1ccb2a813452dcc656ae5fe10a33bc363c0c38b9f9d28c7e85ba9",
+  "data_signature": "4aa137355b0539bb6594df029ae88651061fa404fa35ecb69f0afd989ee67fd2",
+  "vocabulary_size": 4096,
+  "context_len": 192,
+  "max_new_tokens": 64
+}

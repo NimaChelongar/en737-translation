@@ -1,0 +1,19 @@
+{
+  "speedup_B1_G64": {
+    "value": 1.2690224119648974,
+    "threshold": 1.5,
+    "status": "not_supported"
+  },
+  "cached_throughput_B8_over_B1_G64": {
+    "value": 8.063039443217118,
+    "threshold": 2.0,
+    "status": "supported"
+  },
+  "max_retained_memory_relative_error": {
+    "value": 0.18242851497719734,
+    "threshold": 0.1,
+    "status": "not_supported",
+    "complete_cache_configurations": 12,
+    "intended_cache_configurations": 12
+  }
+}

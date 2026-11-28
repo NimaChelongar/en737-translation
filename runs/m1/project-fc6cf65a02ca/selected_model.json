@@ -1,0 +1,10 @@
+{
+  "method": "full",
+  "seed": 42,
+  "epoch": 3,
+  "path": "/content/drive/MyDrive/en737_m1_runs/project-fc6cf65a02ca/best_model_for_inference",
+  "validation_bits_per_byte": 0.7378755669529025,
+  "prompt_template": "German: {source}\nEnglish:",
+  "max_new_tokens": 128,
+  "base_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+}

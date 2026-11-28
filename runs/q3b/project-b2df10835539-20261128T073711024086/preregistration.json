@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-11-28T07:37:11.032495+00:00",
+  "profile": "project",
+  "checkpoint": {
+    "path": "/content/drive/MyDrive/en737_m1_runs/project-fc6cf65a02ca/best_model_for_inference",
+    "selected_model": {
+      "method": "full",
+      "seed": 42,
+      "epoch": 3,
+      "path": "/content/drive/MyDrive/en737_m1_runs/project-fc6cf65a02ca/best_model_for_inference",
+      "validation_bits_per_byte": 0.7378755669529025,
+      "prompt_template": "German: {source}\nEnglish:",
+      "max_new_tokens": 128,
+      "base_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    },
+    "files": {
+      "config.json": "4373f7c7a4f534fc42351e34c8f0c528790305e59dda8696ab7c21e4f2a1902c",
+      "generation_config.json": "2258b3a1afa11b5a2735a0fe2364b161873717834b23872ed16fb99456f5a63e",
+      "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "model.safetensors": "c8d620c6b130ca92a8d2b3848d9dabcca96a2cc2cc8f5f8a72abf2f0ab01f1ce",
+      "special_tokens_map.json": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad",
+      "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+      "tokenizer_config.json": "f1cb5e31899749cf30935ccea01180ab3cfd484bd2bcf3bfdc1aeb9fdf935f6f",
+      "vocab.json": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+    }
+  },
+  "data_sha256": "e087d3fb1315d0568f122c2c971c6f429dff952c97ef7bd16dd849637966180f",
+  "ids": [
+    "990",
+    "1765",
+    "3956",
+    "2019",
+    "229",
+    "65",
+    "816",
+    "6826",
+    "7628",
+    "4628",
+    "7558",
+    "7107",
+    "4286",
+    "5055",
+    "5748",
+    "3589",
+    "1698",
+    "773",
+    "3278",
+    "3978",
+    "6385",
+    "2498",
+    "4004",
+    "3692",
+    "6190",
+    "5802",
+    "1618",
+    "2669",
+    "7816",
+    "2429",
+    "6450",
+    "6696"
+  ],
+  "batch_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "generated_lengths": [
+    32,
+    64
+  ],
+  "n_sentences": 32,
+  "repeats": 3,
+  "warmups": 1,
+  "seed": 17,
+  "dtype": "torch.float32",
+  "attention": "eager",
+  "prompt_width": 103,
+  "natural": false,
+  "natural_cap": 128,
+  "predictions": {
+    "speedup_B1_G64_min": 1.5,
+    "cached_throughput_B8_over_B1_G64_min": 2.0,
+    "retained_memory_relative_error_max": 0.1
+  },
+  "software": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.51.3",
+    "sacrebleu": "2.5.1",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "tokenizers": "0.21.4"
+  },
+  "hardware": {
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "gpu_total_bytes": 15637086208,
+    "cuda": "13.0",
+    "python": "3.13.16"
+  }
+}
