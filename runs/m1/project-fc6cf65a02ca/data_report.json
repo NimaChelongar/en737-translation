@@ -1,0 +1,19 @@
+{
+  "split_sizes": {
+    "train": 19709,
+    "validation": 507,
+    "test": 512
+  },
+  "split_sha256": {
+    "train": "35890a819a505a51ed5233a2a4fe7a3cc974330006dd629340870036a08d36fa",
+    "validation": "d8a534f3b83965f531bbc70cfd5fdb9f3e25f869e04976dedfb6cae55d45f0ac",
+    "test": "e087d3fb1315d0568f122c2c971c6f429dff952c97ef7bd16dd849637966180f"
+  },
+  "target_tokens_per_epoch": 424938,
+  "target_token_budget": 1274814,
+  "max_sequence": {
+    "train": 249,
+    "validation": 267,
+    "test": 248
+  }
+}

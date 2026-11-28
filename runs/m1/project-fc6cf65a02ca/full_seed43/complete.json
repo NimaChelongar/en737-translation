@@ -1,0 +1,38 @@
+{
+  "method": "full",
+  "seed": 43,
+  "gpu": "Tesla T4",
+  "trainable_parameters": 124439808,
+  "total_parameters": 124439808,
+  "lr": 5e-05,
+  "training_tokens": 1274814,
+  "nonpadding_tokens": 3835374,
+  "optimizer_steps_attempted": 1848,
+  "optimizer_steps_skipped": 2,
+  "training_seconds": 868.5891062499995,
+  "peak_training_memory_mib": 3146.39697265625,
+  "best_epoch": 3,
+  "best_training_tokens": 1274814,
+  "best_validation_bits_per_byte": 0.7394332239026982,
+  "final_validation_bits_per_byte": 0.7394332239026982,
+  "final": {
+    "bleu": 11.524027471119522,
+    "chrf": 33.287012659540515,
+    "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+    "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+    "ce_nats_per_token": 2.253922160148621,
+    "bits_per_byte": 0.7186872971131419,
+    "reference_tokens": 10375,
+    "reference_bytes": 46942
+  },
+  "best": {
+    "bleu": 11.524027471119522,
+    "chrf": 33.287012659540515,
+    "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+    "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.5.1",
+    "ce_nats_per_token": 2.253922160148621,
+    "bits_per_byte": 0.7186872971131419,
+    "reference_tokens": 10375,
+    "reference_bytes": 46942
+  }
+}

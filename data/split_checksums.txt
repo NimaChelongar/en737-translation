@@ -1,0 +1,5 @@
+# SHA-256 of the splits used by M1 and Q3(b), rebuilt by running M2 notebook cells 8-14
+# (DATA_MODE="iwslt", split_seed=737). Compare with an M2 export: shasum -a 256 *.tsv
+35890a819a505a51ed5233a2a4fe7a3cc974330006dd629340870036a08d36fa  train.tsv
+d8a534f3b83965f531bbc70cfd5fdb9f3e25f869e04976dedfb6cae55d45f0ac  validation.tsv
+e087d3fb1315d0568f122c2c971c6f429dff952c97ef7bd16dd849637966180f  test.tsv

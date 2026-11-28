@@ -1,0 +1,16 @@
+{
+  "chrf": {
+    "delta_mean": -14.717190732027362,
+    "delta_seed_sd": 0.18088921625673118,
+    "sentence_bootstrap_ci_low": -15.767068658492125,
+    "sentence_bootstrap_ci_high": -13.647079656732032,
+    "paired_seeds": 3
+  },
+  "bleu": {
+    "delta_mean": -9.51484793357926,
+    "delta_seed_sd": 0.4308825087091213,
+    "sentence_bootstrap_ci_low": -10.55758714968147,
+    "sentence_bootstrap_ci_high": -8.499264150225347,
+    "paired_seeds": 3
+  }
+}

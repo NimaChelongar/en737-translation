@@ -101,3 +101,8 @@ shared_splits/ and q3_test_subset.tsv
 Give teammates the same examples, IDs, and references for M0 and M1.
 
 Verification. The notebook ran end to end on CPU with synthetic data, team-format TSV input, and a reduced IWSLT run. The six-epoch figures above describe the configured training budget. Full-run BLEU, chrF, and GPU timings are produced when you run the project profile.
+
+
+Fine-tuned GPT-2 (M1), Q1(a), and Q3(b)
+
+The notebooks EN737_GPT2_Finetuning.ipynb and EN737_KV_Cache_Benchmark.ipynb, their run results in runs/, and the split checksums in data/ are described in README_M1_Q3b.md.
